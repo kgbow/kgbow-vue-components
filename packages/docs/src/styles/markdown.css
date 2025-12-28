@@ -1,0 +1,78 @@
+/* Markdown Content Styles */
+.markdown-body {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Headers */
+.markdown-body h2 {
+  font-size: 24px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eaecef;
+}
+
+.markdown-body h3 {
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+/* Code Blocks (Shiki) */
+.markdown-body pre.shiki {
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  background-color: #f6f8fa;
+  margin: 16px 0;
+}
+
+.markdown-body code {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    SF Mono,
+    Menlo,
+    Consolas,
+    Liberation Mono,
+    monospace;
+  font-size: 85%;
+  background-color: rgba(27, 31, 35, 0.05);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+.markdown-body pre code {
+  background-color: transparent;
+  padding: 0;
+  font-size: 100%;
+}
+
+/* Tables */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  display: block;
+  overflow-x: auto;
+}
+
+.markdown-body tr {
+  border-top: 1px solid #c6cbd1;
+  background-color: #fff;
+}
+
+.markdown-body tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown-body th,
+.markdown-body td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.markdown-body th {
+  font-weight: 600;
+}

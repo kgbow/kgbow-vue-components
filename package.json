@@ -1,0 +1,27 @@
+{
+  "name": "kgbow-vue-components",
+  "version": "1.0.0",
+  "description": "Vue 3 组件库 monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev": "pnpm --filter @kgbow/docs dev",
+    "build": "pnpm -r build",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.md --max-warnings 0",
+    "format": "prettier --write .",
+    "gen": "tsx scripts/gen-component.ts"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.0.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/prompts": "^2.4.9",
+    "eslint": "^8.56.0",
+    "fs-extra": "^11.3.3",
+    "kolorist": "^1.8.0",
+    "prettier": "^3.2.0",
+    "prompts": "^2.4.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.3.0",
+    "vue": "^3.4.0"
+  }
+}
